@@ -12,7 +12,7 @@ tracks:
     last_version: 0.3.1
     name: geographic_info
     patches: null
-    release_inc: '0'
+    release_inc: '1'
     release_repo_url: git@github.com:ros-geographic-info/geographic_info-release.git
     release_tag: geographic_info-:{version}
     ros_distro: hydro
