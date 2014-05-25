@@ -1,0 +1,12 @@
+Source: ros-hydro-geographic-info
+Section: misc
+Priority: extra
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: http://ros.org/wiki/geographic_info
+Standards-Version: 3.9.2
+
+Package: ros-hydro-geographic-info
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-geodesy, ros-hydro-geographic-msgs
+Description: Geographic information metapackage. DEPRECATED for wet packages, use only to resolve dry stack dependencies.
