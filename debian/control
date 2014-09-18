@@ -1,0 +1,12 @@
+Source: ros-indigo-geographic-msgs
+Section: misc
+Priority: extra
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-std-msgs, ros-indigo-uuid-msgs
+Homepage: http://wiki.ros.org/geographic_msgs
+Standards-Version: 3.9.2
+
+Package: ros-indigo-geographic-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-geometry-msgs, ros-indigo-message-runtime, ros-indigo-std-msgs, ros-indigo-uuid-msgs
+Description: ROS messages for Geographic Information Systems.
