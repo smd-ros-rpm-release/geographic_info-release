@@ -1,0 +1,12 @@
+Source: ros-indigo-geographic-info
+Section: misc
+Priority: extra
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/geographic_info
+Standards-Version: 3.9.2
+
+Package: ros-indigo-geographic-info
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-geodesy, ros-indigo-geographic-msgs
+Description: Geographic information metapackage. Not needed for wet packages, use only to resolve dry stack dependencies.
