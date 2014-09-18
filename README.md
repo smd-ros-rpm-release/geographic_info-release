@@ -1,3 +1,27 @@
+## geographic_info (indigo) - 0.4.0-0
+
+The packages in the `geographic_info` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -t indigo -r indigo geographic_info` on `Thu, 18 Sep 2014 23:55:07 -0000`
+
+These packages were released:
+- `geodesy`
+- `geographic_info`
+- `geographic_msgs`
+
+Version of package(s) in repository `geographic_info`:
+- upstream repository: https://github.com/ros-geographic-info/geographic_info.git
+- release repository: https://github.com/ros-geographic-info/geographic_info-release.git
+- rosdistro version: `0.3.2-0`
+- old version: `0.3.2-0`
+- new version: `0.4.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.11`
+- catkin_pkg version: `0.2.4`
+- rosdep version: `0.10.30`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## geographic_info (indigo) - 0.3.2-0
 
 The packages in the `geographic_info` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -n geographic_info -t indigo -r indigo` on `Sun, 31 Aug 2014 00:08:28 -0000`
