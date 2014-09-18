@@ -1,0 +1,12 @@
+Source: ros-indigo-geodesy
+Section: misc
+Priority: extra
+Maintainer: Jack O'Quin <jack.oquin@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python-catkin-pkg, ros-indigo-angles, ros-indigo-catkin, ros-indigo-geographic-msgs, ros-indigo-geometry-msgs, ros-indigo-rosunit, ros-indigo-sensor-msgs, ros-indigo-tf, ros-indigo-unique-id, ros-indigo-uuid-msgs
+Homepage: http://wiki.ros.org/geodesy
+Standards-Version: 3.9.2
+
+Package: ros-indigo-geodesy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-pyproj, ros-indigo-geographic-msgs, ros-indigo-geometry-msgs, ros-indigo-sensor-msgs, ros-indigo-tf, ros-indigo-unique-id, ros-indigo-uuid-msgs
+Description: Python and C++ interfaces for manipulating geodetic coordinates.
